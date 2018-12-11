@@ -5,10 +5,13 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
-
-
+   <!-- <h1><%="Team Name: #{params[:name]}"%></h1> #also works -->
+  <h1><%="Team Name: #{@params[:name]}"%></h1>
+  <p><%="Coach: #{@team_hash[:coach]}"%></p>
+  <p><%="Point Guard: #{@team_hash[:pg]}"%></p>
+  <p><%="Shooting Guard: #{@team_hash[:sg]}"%></p>
+  <p><%="Small Forward: #{@team_hash[:sf]}"%></p>
+  <p><%="Power Forward: #{@team_hash[:pf]}"%></p>
+  <p><%="Center: #{@team_hash[:c]}"%></p>
  </body>
 </html>
-
-
