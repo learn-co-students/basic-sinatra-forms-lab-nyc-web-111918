@@ -5,7 +5,36 @@
   <title>Basketball Team Signup</title>
  </head>
  <body>
+   <h1><strong> Create a Basketball Team!</strong></h1>
+   <!-- <% ["Team Name", "Coach", "Point Guard", "Shooting Guard", "Small Forward", "Power Forward"].each do |form| %>
+    <lable> <%= "#{form}:" %></lable>
+    <input type="text" name= <%= form %> >
+    <br>
+    <br>
+   <% end %> -->
+   <form method="POST" action="/team">>
+     <label> Team Name: </lable>
+     <input type-"text" name='name'>
+     <br><br>
+     <label> Coach: </lable>
+     <input type-"text" name='coach'>
+     <br><br>
+     <label> Point Gaurd: </lable>
+     <input type-"text" name='pg'>
+     <br><br>
+     <label> Shooting Guard: </lable>
+     <input type-"text" name='sg'>
+     <br><br>
+     <label> Power Forward: </lable>
+     <input type-"text" name='pf'>
+     <br><br>
+     <label> Small Forward: </lable>
+     <input type-"text" name='sf'>
+     <br><br>
+     <label> Center: </lable>
+     <input type-"text" name='c'>
+     <br><br>
+     <input type="submit" value="Submit" >
+   </form>
  </body>
 </html>
-
-
